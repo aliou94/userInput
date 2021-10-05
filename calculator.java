@@ -18,9 +18,9 @@ static void subtract(int a, int b) {
 	}
 
 
-static void divde (int a, int b) {
+static void divde (double a, double b) {
 	
-	System.out.print(a/b);
+	System.out.print(a / b);
 	
 }
 
@@ -32,6 +32,9 @@ static void  multiply (int a, int b) {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
+		
 		
 		Scanner myObj = new Scanner(System.in); // Create a Scanner object
 		System.out.println("Enter a first number");
@@ -52,14 +55,14 @@ static void  multiply (int a, int b) {
 		  case "SUBTRACT":
 		       subtract(num1, num2);
 		    break;
-		  case "Multiply":
+		  case "MULTIPLY":
 			  multiply (num1,num2);
 			    break;
-		  case "Divide":
+		  case "DIVIDE":
 			  divde(num1, num2);
 			    break;
 		  default:
-		    // code block
+			  System.out.println("enter a valid operation / thanks for using calculator");
 		}
 
 	}
