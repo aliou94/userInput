@@ -50,7 +50,12 @@ public class fabinouchiSeries {
 		Scanner myObj = new Scanner(System.in); // Create a Scanner object
 		System.out.println("Enter a start number");
 
-	
+		// int num1 = myObj.nextInt(); // Read user input
+
+		// System.out.println("Enter a end number");
+		// int numEnd = myObj.nextInt();
+
+		// myMethod(num1, numEnd);
 
 		int num = myObj.nextInt(); // Read user input
 
